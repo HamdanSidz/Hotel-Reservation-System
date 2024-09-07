@@ -1,0 +1,55 @@
+.availability-checker-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form label {
+    display: block;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #495057;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; 
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Apply display: inline-block to both buttons */
+    text-align: center;
+
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  
